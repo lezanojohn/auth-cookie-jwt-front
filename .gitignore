@@ -1,0 +1,41 @@
+# Dependencias
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Carpetas de producción
+/dist/
+/build/
+
+# Archivos de configuración local
+.env
+.env.local
+.env.*.local
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Directorios y archivos de editor
+/.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos específicos de la compilación de Vue
+.vuepress/dist
+/public/
+
+# Archivos de salida de tipo análisis o perfil
+.pnp.*
+.profile
